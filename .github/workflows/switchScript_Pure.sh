@@ -261,7 +261,9 @@ APP_NAME="Wiliwili"
 REPO="xfangfang/wiliwili" MATCH_KEY="wiliwili-NintendoSwitch" END_KEY="zip"
 # ==================================================================
 fetch_api; get_version
-# download_file; check_result; unzip_and_clean
+download_file; check_result
+unzip -oq "${APP_NAME}.${END_KEY}" -d ./switch
+rm -f "${APP_NAME}.${END_KEY}"
 
 # ==================================================================
 APP_NAME="SimpleModDownloader"
