@@ -258,7 +258,7 @@ fetch_api; get_version
 
 # ==================================================================
 APP_NAME="Wiliwili"
-REPO="gzk47/wiliwili" MATCH_KEY="wiliwili" END_KEY="zip"
+REPO="xfangfang/wiliwili" MATCH_KEY="wiliwili-NintendoSwitch" END_KEY="zip"
 # ==================================================================
 fetch_api; get_version
 # download_file; check_result; unzip_and_clean
@@ -286,7 +286,7 @@ fetch_api; get_version
 
 # ==================================================================
 APP_NAME="Moonlight"
-REPO="XITRIX/Moonlight-Switch" MATCH_KEY="Moonlight" END_KEY="nro"
+REPO="XITRIX/Moonlight-Switch" MATCH_KEY="Moonlight-Switch" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
 # download_file; check_result; move_to_switch_dir
