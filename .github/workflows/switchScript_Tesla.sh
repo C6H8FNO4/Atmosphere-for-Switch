@@ -271,8 +271,8 @@ fetch_api; get_version
 download_file; check_result; unzip_and_clean
 
 # ==================================================================
-APP_NAME="Wiliwili"
-REPO="gzk47/wiliwili" MATCH_KEY="wiliwili" END_KEY="zip"
+APP_NAME="wiliwili"
+REPO="xfangfang/wiliwili" MATCH_KEY="wiliwili-NintendoSwitch" END_KEY="zip"
 # ==================================================================
 fetch_api; get_version
 download_file; check_result; unzip_and_clean
