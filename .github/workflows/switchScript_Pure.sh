@@ -176,16 +176,16 @@ download_file; check_result; move_to_switch_dir
 
 # ==================================================================
 APP_NAME="DBI"
-REPO="gzk47/DBI" MATCH_KEY="DBI" END_KEY="nro"
+REPO="rashevskyv/dbi" MATCH_KEY="dbi" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
 download_file; check_result; move_to_switch_dir
 
 # ==================================================================
 APP_NAME="dbi"
-REPO="rashevskyv/DBI" MATCH_KEY="dbi" END_KEY="config"
+REPO="rashevskyv/dbi" MATCH_KEY="dbi" END_KEY="config"
 # ==================================================================
-fetch_api; # get_version
+fetch_api; get_version
 download_file; check_result; move_to_switch_dir
 
 # ==================================================================
@@ -193,7 +193,7 @@ APP_NAME="Awoo-Installer"
 REPO="Huntereb/Awoo-Installer" MATCH_KEY="Awoo-Installer" END_KEY="zip"
 # ==================================================================
 fetch_api; get_version
-# download_file; check_result; unzip_and_clean
+download_file; check_result; unzip_and_clean
 
 # ==================================================================
 APP_NAME="HekateToolbox"
