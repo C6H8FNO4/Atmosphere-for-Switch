@@ -79,3 +79,11 @@ jobs:
           files: |
             # AMS$-{{ env.VERSION }}-Pure-v${{ env.TAG_NAME }}.zip
             *.zip
+
+      # Keep older releases intact; disable automatic cleanup to preserve historical builds.
+      # - name: Remove old Releases
+      #   uses: gzk47/delete-older-releases@v0.3.6
+      #   with:
+      #     keep_latest: 1
+      #     delete_tags: true
+      #     tag_whitelist: '01'
