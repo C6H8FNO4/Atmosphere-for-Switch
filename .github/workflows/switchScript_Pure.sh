@@ -58,8 +58,8 @@ unzip_and_clean() {
 
 # Create directory and move file to /switch/[app]
 move_to_switch_dir() {
-    mkdir -p ./switch/"${APP_NAME}"
-    mv "${APP_NAME}.${END_KEY}" ./switch/"${APP_NAME}"
+    mkdir -p ./switch/"${NRO_DIR_NAME}"
+    mv "${APP_NAME}.${END_KEY}" ./switch/"${NRO_DIR_NAME}"
 }
 
 # Create directory and move file to /bootloader/payloads
@@ -168,7 +168,7 @@ cat >> ../description.txt << ENDOFFILE
 ENDOFFILE
 
 # ==================================================================
-APP_NAME="Switch_90DNS_tester"
+APP_NAME="Switch_90DNS_tester" NRO_DIR_NAME="S90NS"
 REPO="meganukebmp/Switch_90DNS_tester" MATCH_KEY="Switch_90DNS_tester" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
