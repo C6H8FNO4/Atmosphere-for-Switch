@@ -45,27 +45,27 @@
     - [ ] 加载器 `nx-ovlloader` [From Here](https://github.com/zdm65477730/nx-ovlloader/releases/latest)
     - [ ] 初始菜单 `Ultrahand` [From Here](https://github.com/zdm65477730/Ultrahand-Overlay/releases/latest)
   - Ovl插件
-    - [x] 金手指工具 `EdiZon` [From Here](https://github.com/zdm65477730/EdiZon-Overlay/releases/latest)
-    - [x] 系统模块 `ovl-sysmodules` [From Here](https://github.com/zdm65477730/ovl-sysmodules/releases/latest)
-    - [x] 系统监视 `StatusMonitor` [From Here](https://github.com/zdm65477730/Status-Monitor-Overlay/releases/latest)
-    - [x] 系统超频 `sys-clk` [From Here](https://github.com/zdm65477730/sys-clk/releases/latest)
-    - [x] 底座模式切换 `ReverseNX-RT` [From Here]( https://github.com/zdm65477730/ReverseNX-RT/releases/latest)
-    - [x] 局域网联机 `ldn_mitm` [From Here](https://github.com/zdm65477730/ldn_mitm/releases/latest)
-    - [x] 虚拟Amiibo `emuiibo` [From Here](https://github.com/zdm65477730/emuiibo/releases/latest)
-    - [x] 时间同步 `QuickNTP` [From Here](https://github.com/zdm65477730/QuickNTP/releases/latest)
-    - [x] 色彩调整 `Fizeau` [From Here](https://github.com/zdm65477730/Fizeau/releases/latest)
-    - [x] 金手指工具 `Zing` [From Here](https://www.tekqart.com/thread-222735-1-1.html)
-    - [x] 后台音乐 `sys-tune` [From Here](https://www.tekqart.com/thread-370954-1-1.html)
-    - [x] 系统补丁 `sys-patch` [From Here](https://github.com/impeeza/sys-patch/releases/latest)
+    - [ ] 金手指工具 `EdiZon` [From Here](https://github.com/zdm65477730/EdiZon-Overlay/releases/latest)
+    - [ ] 系统模块 `ovl-sysmodules` [From Here](https://github.com/zdm65477730/ovl-sysmodules/releases/latest)
+    - [ ] 系统监视 `StatusMonitor` [From Here](https://github.com/zdm65477730/Status-Monitor-Overlay/releases/latest)
+    - [ ] 系统超频 `sys-clk` [From Here](https://github.com/zdm65477730/sys-clk/releases/latest)
+    - [ ] 底座模式切换 `ReverseNX-RT` [From Here]( https://github.com/zdm65477730/ReverseNX-RT/releases/latest)
+    - [ ] 局域网联机 `ldn_mitm` [From Here](https://github.com/zdm65477730/ldn_mitm/releases/latest)
+    - [ ] 虚拟Amiibo `emuiibo` [From Here](https://github.com/zdm65477730/emuiibo/releases/latest)
+    - [ ] 时间同步 `QuickNTP` [From Here](https://github.com/zdm65477730/QuickNTP/releases/latest)
+    - [ ] 色彩调整 `Fizeau` [From Here](https://github.com/zdm65477730/Fizeau/releases/latest)
+    - [ ] 金手指工具 `Zing` [From Here](https://www.tekqart.com/thread-222735-1-1.html)
+    - [ ] 后台音乐 `sys-tune` [From Here](https://www.tekqart.com/thread-370954-1-1.html)
+    - [ ] 系统补丁 `sys-patch` [From Here](https://github.com/impeeza/sys-patch/releases/latest)
   - 其他
     - [x] 蓝牙手柄插件 `MissionControl` [From Here](https://github.com/ndeadly/MissionControl/releases/latest)
     - [x] 有线手柄插件 `sys-con` [From Here](https://github.com/o0Zz/sys-con/releases/latest)
 
   - 心悦工具箱
-    - [x] 心悦工具箱 `XY-tools` [From Here](https://github.com/gzk47)
+    - [ ] 心悦工具箱 `XY-tools` [From Here](https://github.com/gzk47)
 
   - 极限超频
-    - [x] 极限超频插件 `Horizon-OC` [From Here](https://github.com/Horizon-OC/Horizon-OC/releases/latest)
+    - [ ] 极限超频插件 `Horizon-OC` [From Here](https://github.com/Horizon-OC/Horizon-OC/releases/latest)
           
 - 文件操作：
     - [x] 移动 `fusee.bin` 至 `bootloader/payloads` 文件夹
