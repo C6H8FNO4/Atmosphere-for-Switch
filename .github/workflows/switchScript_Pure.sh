@@ -176,7 +176,7 @@ download_file; check_result; move_to_switch_dir
 
 # ==================================================================
 APP_NAME="DBI"
-REPO="rashevskyv/dbi" MATCH_KEY="dbi" END_KEY="nro"
+REPO="rashevskyv/dbi" MATCH_KEY="DBI" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
 download_file; check_result; move_to_switch_dir
