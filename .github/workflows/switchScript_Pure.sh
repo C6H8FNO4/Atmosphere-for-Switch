@@ -169,7 +169,7 @@ ENDOFFILE
 
 # ==================================================================
 APP_NAME="Switch_90DNS_tester"
-REPO="gzk47/Switch_90DNS_tester" MATCH_KEY="Switch_90DNS_tester" END_KEY="nro"
+REPO="meganukebmp/Switch_90DNS_tester" MATCH_KEY="Switch_90DNS_tester" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
 download_file; check_result; move_to_switch_dir
