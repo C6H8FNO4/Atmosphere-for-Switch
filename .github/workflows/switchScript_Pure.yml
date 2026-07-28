@@ -57,10 +57,12 @@ jobs:
           
           VERSION=$(grep -F "$KEY" "$VER_FILE" | grep -oE '[0-9]+' | head -3 | paste -s -d '.')
           DATE=$(date +%Y%m%d)
+          TIME=$(date +%H%M%S)
           DATE_TIME=$(date '+%Y%m%d %H:%M:%S')
+          RUN_ID=${GITHUB_RUN_NUMBER}
           
           echo "VERSION=${VERSION}" >> "$GITHUB_ENV"
-          echo "TAG_NAME=${DATE}" >> "$GITHUB_ENV"
+          echo "TAG_NAME=${DATE}-${TIME}-${RUN_ID}" >> "$GITHUB_ENV"
           echo "RELEASE_NAME=${APP_NAME} v${DATE_TIME}" >> "$GITHUB_ENV"
 
           zip -rq AMS-Pure.zip AMS-Pure
