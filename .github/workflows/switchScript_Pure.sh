@@ -175,21 +175,21 @@ fetch_api; get_version
 download_file; check_result; move_to_switch_dir
 
 # ==================================================================
-APP_NAME="DBI"
+APP_NAME="DBI" NRO_DIR_NAME="DBI"
 REPO="rashevskyv/dbi" MATCH_KEY="DBI" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
 download_file; check_result; move_to_switch_dir
 
 # ==================================================================
-APP_NAME="dbi"
+APP_NAME="dbi" NRO_DIR_NAME="DBI"
 REPO="rashevskyv/dbi" MATCH_KEY="dbi" END_KEY="config"
 # ==================================================================
 fetch_api; get_version
 download_file; check_result; move_to_switch_dir
 
 # ==================================================================
-APP_NAME="Awoo-Installer"
+APP_NAME="Awoo-Installer" 
 REPO="Huntereb/Awoo-Installer" MATCH_KEY="Awoo-Installer" END_KEY="zip"
 # ==================================================================
 fetch_api; get_version
@@ -200,24 +200,24 @@ APP_NAME="HekateToolbox"
 REPO="gzk47/Hekate-Toolbox" MATCH_KEY="HekateToolbox" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
-download_file; check_result; move_to_switch_dir
+# download_file; check_result; move_to_switch_dir
 
 # ==================================================================
 APP_NAME="NX-Activity-Log"
 REPO="zdm65477730/NX-Activity-Log" MATCH_KEY="NX-Activity-Log" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
-download_file; check_result; move_to_switch_dir
-
-# ==================================================================
-APP_NAME="NXThemesInstaller"
-REPO="exelix11/SwitchThemeInjector" MATCH_KEY="NXThemesInstaller" END_KEY="nro"
-# ==================================================================
-fetch_api; get_version
 # download_file; check_result; move_to_switch_dir
 
 # ==================================================================
-APP_NAME="JKSV"
+APP_NAME="NXThemesInstaller" NRO_DIR_NAME="NXThemesInstaller"
+REPO="exelix11/SwitchThemeInjector" MATCH_KEY="NXThemesInstaller" END_KEY="nro"
+# ==================================================================
+fetch_api; get_version
+download_file; check_result; move_to_switch_dir
+
+# ==================================================================
+APP_NAME="JKSV" NRO_DIR_NAME="JKSV"
 REPO="J-D-K/JKSV" MATCH_KEY="JKSV" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
@@ -247,53 +247,46 @@ APP_NAME="Tencent-switcher-gui"
 REPO="gzk47/Tencent-switcher-GUI" MATCH_KEY="tencent-switcher-gui" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
-download_file; check_result; move_to_switch_dir
+# download_file; check_result; move_to_switch_dir
 
 # ==================================================================
 APP_NAME="Aio-switch-updater"
 REPO="HamletDuFromage/aio-switch-updater" MATCH_KEY="aio-switch-updater" END_KEY="zip"
 # ==================================================================
 fetch_api; get_version
-# download_file; check_result; unzip_and_clean
+download_file; check_result; unzip_and_clean
 
 # ==================================================================
-APP_NAME="wiliwili"
+APP_NAME="wiliwili" NRO_DIR_NAME="wiliwili"
 REPO="xfangfang/wiliwili" MATCH_KEY="wiliwili-NintendoSwitch" END_KEY="zip"
 # ==================================================================
 fetch_api; get_version
-# download_file; check_result; unzip_and_clean
+download_file; check_result; unzip_and_clean
 
 # ==================================================================
-APP_NAME="SimpleModDownloader"
+APP_NAME="SimpleModDownloader" NRO_DIR_NAME="SimpleModDownloader"
 REPO="PoloNX/SimpleModDownloader" MATCH_KEY="SimpleModDownloader" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
-# download_file; check_result; move_to_switch_dir
+download_file; check_result; move_to_switch_dir
 
 # ==================================================================
-APP_NAME="SimpleModManager"
-REPO="gzk47/SimpleModManager" MATCH_KEY="SimpleModManager" END_KEY="nro"
-# ==================================================================
-fetch_api; get_version
-# download_file; check_result; move_to_switch_dir
-
-# ==================================================================
-APP_NAME="Switchfin"
+APP_NAME="Switchfin" NRO_DIR_NAME="Switchfin"
 REPO="dragonflylee/Switchfin" MATCH_KEY="Switchfin" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
-# download_file; check_result; move_to_switch_dir
+download_file; check_result; move_to_switch_dir
 
 # ==================================================================
-APP_NAME="Moonlight"
+APP_NAME="Moonlight-Switch" NRO_DIR_NAME="Moonlight-Switch"
 REPO="XITRIX/Moonlight-Switch" MATCH_KEY="Moonlight-Switch" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
-# download_file; check_result; move_to_switch_dir
+download_file; check_result; move_to_switch_dir
 
 # ==================================================================
-APP_NAME="Appstore"
-REPO="gzk47/hb-appstore" MATCH_KEY="appstore" END_KEY="nro"
+APP_NAME="appstore" NRO_DIR_NAME="appstore"
+REPO="fortheusers/hb-appstore" MATCH_KEY="appstore" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
 # download_file; check_result; move_to_switch_dir
@@ -306,35 +299,35 @@ fetch_api; get_version
 # download_file; check_result; move_to_switch_dir
 
 # ==================================================================
-APP_NAME="Goldleaf"
+APP_NAME="Goldleaf" NRO_DIR_NAME="Goldleaf"
 REPO="XorTroll/Goldleaf" MATCH_KEY="Goldleaf" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
 # download_file; check_result; move_to_switch_dir
 
 # ==================================================================
-APP_NAME="Safe_Reboot_Shutdown"
+APP_NAME="Safe_Reboot_Shutdown" NRO_DIR_NAME="Safe_Reboot_Shutdown"
 REPO="gzk47/Safe_Reboot_Shutdown" MATCH_KEY="Safe_Reboot_Shutdown" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
 download_file; check_result; move_to_switch_dir
 
 # ==================================================================
-APP_NAME="Haku33"
+APP_NAME="Haku33" NRO_DIR_NAME="Haku33"
 REPO="StarDustCFW/Haku33" MATCH_KEY="Haku33" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
 # download_file; check_result; move_to_switch_dir
 
 # ==================================================================
-APP_NAME="Linkalho"
-REPO="gzk47/linkalho" MATCH_KEY="linkalho" END_KEY="nro"
+APP_NAME="linkalho" NRO_DIR_NAME="linkalho"
+REPO="impeeza/linkalho" MATCH_KEY="linkalho" END_KEY="zip"
 # ==================================================================
 fetch_api; get_version
-download_file; check_result; move_to_switch_dir
+download_file; check_result; unzip_and_clean
 
 # ==================================================================
-APP_NAME="Checkpoint"
+APP_NAME="Checkpoint" NRO_DIR_NAME="Checkpoint"
 REPO="BernardoGiordano/Checkpoint" MATCH_KEY="Checkpoint" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
@@ -348,8 +341,8 @@ fetch_api; get_version
 download_file; check_result; move_to_switch_dir
 
 # ==================================================================
-APP_NAME="Ftpd"
-REPO="gzk47/ftpd" MATCH_KEY="ftpd" END_KEY="nro"
+APP_NAME="ftpd" NRO_DIR_NAME="ftpd"
+REPO="mtheall/ftpd" MATCH_KEY="ftpd" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
 # download_file; check_result; move_to_switch_dir
@@ -414,110 +407,6 @@ fetch_api; get_version
 download_file; check_result
 
 mv "${APP_NAME}.${END_KEY}" ./atmosphere
-
-# ------------------------------------------------------------------
-
-cat >> ../description.txt << ENDOFFILE
- 
-------------------------------------------------------------------
- 
-特斯拉中文版插件：（纯净版 没有特斯拉插件）
- 
-ENDOFFILE
-
-# ==================================================================
-APP_NAME="Ultrahand-Overlay"
-REPO="ppkantorski/Ultrahand-Overlay" MATCH_KEY="sdout" END_KEY="zip"
-# ==================================================================
-fetch_api; get_version
-# download_file; check_result; unzip_and_clean
-
-# ==================================================================
-APP_NAME="ovlmenu"
-REPO="gzk47/Ultrahand-Overlay" MATCH_KEY="ovlmenu" END_KEY="ovl"
-# ==================================================================
-fetch_api; get_version
-# download_file; check_result
-
-# ==================================================================
-APP_NAME="ovl-sysmodules"
-REPO="zdm65477730/ovl-sysmodules" MATCH_KEY="ovl-sysmodules" END_KEY="zip"
-# ==================================================================
-fetch_api; get_version
-# download_file; check_result; unzip_and_clean
-
-# ==================================================================
-APP_NAME="StatusMonitor"
-REPO="zdm65477730/Status-Monitor-Overlay" MATCH_KEY="StatusMonitor" END_KEY="zip"
-# ==================================================================
-fetch_api; get_version
-# download_file; check_result; unzip_and_clean
-
-# ==================================================================
-APP_NAME="EdiZon"
-REPO="zdm65477730/EdiZon-Overlay" MATCH_KEY="EdiZon" END_KEY="zip"
-# ==================================================================
-fetch_api; get_version
-download_file; check_result; unzip_and_clean
-
-rm -rf atmosphere/contents/0100000000000352
-rm -rf switch/.overlays    
-
-# ==================================================================
-APP_NAME="ReverseNX-RT"
-REPO="zdm65477730/ReverseNX-RT" MATCH_KEY="ReverseNX-RT" END_KEY="zip"
-# ==================================================================
-fetch_api; get_version
-# download_file; check_result; unzip_and_clean
-
-# ==================================================================
-APP_NAME="Sys-clk"
-REPO="gzk47/sys-clk" MATCH_KEY="sys-clk" END_KEY="zip"
-# ==================================================================
-fetch_api; get_version
-# download_file; check_result; unzip_and_clean
-
-# ==================================================================
-APP_NAME="Emuiibo"
-REPO="gzk47/emuiibo" MATCH_KEY="emuiibo" END_KEY="zip"
-# ==================================================================
-fetch_api; get_version
-# download_file; check_result; unzip_and_clean
-
-# ==================================================================
-APP_NAME="Ldn_mitm"
-REPO="zdm65477730/ldn_mitm" MATCH_KEY="ldn_mitm" END_KEY="zip"
-# ==================================================================
-fetch_api; get_version
-# download_file; check_result; unzip_and_clean
-
-# ==================================================================
-APP_NAME="QuickNTP"
-REPO="zdm65477730/QuickNTP" MATCH_KEY="QuickNTP" END_KEY="zip"
-# ==================================================================
-fetch_api; get_version
-# download_file; check_result; unzip_and_clean
-
-# ==================================================================
-APP_NAME="SysDVR"
-REPO="zdm65477730/sysdvr-overlay" MATCH_KEY="SysDVR" END_KEY="zip"
-# ==================================================================
-fetch_api; get_version
-# download_file; check_result; unzip_and_clean
-
-# ==================================================================
-APP_NAME="MissionControl"
-REPO="ndeadly/MissionControl" MATCH_KEY="MissionControl" END_KEY="zip"
-# ==================================================================
-fetch_api; get_version
-# download_file; check_result; unzip_and_clean
-
-# ==================================================================
-APP_NAME="Sys-con"
-REPO="o0Zz/sys-con" MATCH_KEY="sys-con" END_KEY="zip"
-# ==================================================================
-fetch_api; get_version
-# download_file; check_result; unzip_and_clean
 
 # ------------------------------------------------------------------
 
