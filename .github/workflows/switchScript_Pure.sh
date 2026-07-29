@@ -263,6 +263,11 @@ REPO="xfangfang/wiliwili" MATCH_KEY="wiliwili-NintendoSwitch" END_KEY="zip"
 fetch_api; get_version
 download_file; check_result; unzip_and_clean
 
+if [ -d "./${APP_NAME}" ]; then
+    mkdir -p "./switch/${NRO_DIR_NAME}"
+    mv "./${APP_NAME}" "./switch/${NRO_DIR_NAME}"
+fi
+
 # ==================================================================
 APP_NAME="SimpleModDownloader" NRO_DIR_NAME="SimpleModDownloader"
 REPO="PoloNX/SimpleModDownloader" MATCH_KEY="SimpleModDownloader" END_KEY="nro"
