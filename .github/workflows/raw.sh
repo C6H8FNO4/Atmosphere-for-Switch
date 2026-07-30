@@ -200,14 +200,14 @@ APP_NAME="HekateToolbox"
 REPO="gzk47/Hekate-Toolbox" MATCH_KEY="HekateToolbox" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
-# download_file; check_result; move_to_switch_dir
+download_file; check_result; move_to_switch_dir
 
 # ==================================================================
 APP_NAME="NX-Activity-Log"
 REPO="zdm65477730/NX-Activity-Log" MATCH_KEY="NX-Activity-Log" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
-# download_file; check_result; move_to_switch_dir
+download_file; check_result; move_to_switch_dir
 
 # ==================================================================
 APP_NAME="NXThemesInstaller" NRO_DIR_NAME="NXThemesInstaller"
@@ -247,7 +247,7 @@ APP_NAME="Tencent-switcher-gui"
 REPO="gzk47/Tencent-switcher-GUI" MATCH_KEY="tencent-switcher-gui" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
-# download_file; check_result; move_to_switch_dir
+download_file; check_result; move_to_switch_dir
 
 # ==================================================================
 APP_NAME="Aio-switch-updater"
@@ -294,21 +294,21 @@ APP_NAME="appstore" NRO_DIR_NAME="appstore"
 REPO="fortheusers/hb-appstore" MATCH_KEY="appstore" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
-# download_file; check_result; move_to_switch_dir
+download_file; check_result; move_to_switch_dir
 
 # ==================================================================
 APP_NAME="ReverseNX-Tool"
 REPO="gzk47/ReverseNX-Tool" MATCH_KEY="ReverseNX-Tool" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
-# download_file; check_result; move_to_switch_dir
+download_file; check_result; move_to_switch_dir
 
 # ==================================================================
 APP_NAME="Goldleaf" NRO_DIR_NAME="Goldleaf"
 REPO="XorTroll/Goldleaf" MATCH_KEY="Goldleaf" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
-# download_file; check_result; move_to_switch_dir
+download_file; check_result; move_to_switch_dir
 
 # ==================================================================
 APP_NAME="Safe_Reboot_Shutdown" NRO_DIR_NAME="Safe_Reboot_Shutdown"
@@ -322,7 +322,7 @@ APP_NAME="Haku33" NRO_DIR_NAME="Haku33"
 REPO="StarDustCFW/Haku33" MATCH_KEY="Haku33" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
-# download_file; check_result; move_to_switch_dir
+download_file; check_result; move_to_switch_dir
 
 # ==================================================================
 APP_NAME="linkalho" NRO_DIR_NAME="linkalho"
@@ -350,7 +350,7 @@ APP_NAME="ftpd" NRO_DIR_NAME="ftpd"
 REPO="mtheall/ftpd" MATCH_KEY="ftpd" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
-# download_file; check_result; move_to_switch_dir
+download_file; check_result; move_to_switch_dir
 
 # ==================================================================
 APP_NAME="nxdumptool"
