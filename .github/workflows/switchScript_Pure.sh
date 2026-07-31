@@ -339,13 +339,6 @@ fetch_api; get_version
 download_file; check_result; move_to_switch_dir
 
 # ==================================================================
-APP_NAME="Switch-time" NRO_DIR_NAME="Switch-time"
-REPO="gzk47/switch-time" MATCH_KEY="switch-time" END_KEY="nro"
-# ==================================================================
-fetch_api; get_version
-download_file; check_result; move_to_switch_dir
-
-# ==================================================================
 APP_NAME="ftpd" NRO_DIR_NAME="ftpd"
 REPO="mtheall/ftpd" MATCH_KEY="ftpd" END_KEY="nro"
 # ==================================================================
