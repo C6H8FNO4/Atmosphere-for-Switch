@@ -339,7 +339,7 @@ fetch_api; get_version
 download_file; check_result; move_to_switch_dir
 
 # ==================================================================
-APP_NAME="Switch-time"
+APP_NAME="Switch-time" NRO_DIR_NAME="Switch-time"
 REPO="gzk47/switch-time" MATCH_KEY="switch-time" END_KEY="nro"
 # ==================================================================
 fetch_api; get_version
